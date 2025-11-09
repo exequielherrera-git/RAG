@@ -1,2 +1,6 @@
 # Archivos de sistema macOS
 .DS_Store
+
+# Carpetas y archivos de entorno
+.env/
+.env/*
