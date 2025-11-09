@@ -1,0 +1,239 @@
+{
+    "id": 4916,
+    "summary": "Usuarios Patron",
+    "description": "Necesito que por favor le creen el usuario de Patron a:\r\n\r\n10196\tLIAPIZ PAxxUE, BRUNO ANxxx\r\n \tGonzalez Juan \r\nAL185\tMESSI, MARIA MARIANA",
+    "project": {
+        "id": 1,
+        "name": "Soporte Técnico"
+    },
+    "category": {
+        "id": 3,
+        "name": "Cuenta de usuario"
+    },
+    "reporter": {
+        "id": 25
+    },
+    "handler": {
+        "id": 7
+    },
+    "status": {
+        "id": 80,
+        "name": "resolved",
+        "label": "resolved",
+        "color": "#d2f5b0"
+    },
+    "resolution": {
+        "id": 20,
+        "name": "fixed",
+        "label": "fixed"
+    },
+    "view_state": {
+        "id": 50,
+        "name": "private",
+        "label": "private"
+    },
+    "priority": {
+        "id": 30,
+        "name": "normal",
+        "label": "normal"
+    },
+    "severity": {
+        "id": 50,
+        "name": "minor",
+        "label": "minor"
+    },
+    "reproducibility": {
+        "id": 70,
+        "name": "have not tried",
+        "label": "have not tried"
+    },
+    "sticky": false,
+    "created_at": "2021-09-17T14:01:15-03:00",
+    "updated_at": "2021-09-17T14:23:52-03:00",
+    "notes": [
+        {
+            "id": 7725,
+            "reporter": {
+                "id": 7
+            },
+            "text": "Listo.",
+            "view_state": {
+                "id": 10,
+                "name": "public",
+                "label": "public"
+            },
+            "attachments": [],
+            "type": "note",
+            "created_at": "2021-09-17T14:23:52-03:00",
+            "updated_at": "2021-09-17T14:23:52-03:00"
+        }
+    ],
+    "custom_fields": [
+        {
+            "field": {
+                "id": 5,
+                "name": "Contacta por :"
+            },
+            "value": "Mail "
+        },
+        {
+            "field": {
+                "id": 4,
+                "name": "Credenciales :"
+            },
+            "value": ""
+        },
+        {
+            "field": {
+                "id": 3,
+                "name": "Datos de usuario :"
+            },
+            "value": ""
+        },
+        {
+            "field": {
+                "id": 6,
+                "name": "Info, de conexion"
+            },
+            "value": "Rdesktop "
+        },
+        {
+            "field": {
+                "id": 1,
+                "name": "Sector"
+            },
+            "value": "Juegos"
+        }
+    ],
+    "history": [
+        {
+            "created_at": "2021-09-17T14:01:15-03:00",
+            "user": {
+                "id": 25
+            },
+            "type": {
+                "id": 1,
+                "name": "issue-new"
+            },
+            "message": "New Issue"
+        },
+        {
+            "created_at": "2021-09-17T14:01:15-03:00",
+            "user": {
+                "id": 25
+            },
+            "field": {
+                "name": "status",
+                "label": "Status"
+            },
+            "type": {
+                "id": 0,
+                "name": "field-updated"
+            },
+            "old_value": {
+                "id": 10,
+                "name": "new",
+                "label": "new",
+                "color": "#fcbdbd"
+            },
+            "new_value": {
+                "id": 50,
+                "name": "assigned",
+                "label": "assigned",
+                "color": "#c2dfff"
+            },
+            "message": "Status",
+            "change": "new => assigned"
+        },
+        {
+            "created_at": "2021-09-17T14:01:15-03:00",
+            "user": {
+                "id": 25
+            },
+            "field": {
+                "name": "handler",
+                "label": "Assigned To"
+            },
+            "type": {
+                "id": 0,
+                "name": "field-updated"
+            },
+            "old_value": {
+                "id": 0
+            },
+            "new_value": {
+                "id": 7
+            },
+            "message": "Assigned To",
+            "change": " => user7"
+        },
+        {
+            "created_at": "2021-09-17T14:23:52-03:00",
+            "user": {
+                "id": 7
+            },
+            "field": {
+                "name": "status",
+                "label": "Status"
+            },
+            "type": {
+                "id": 0,
+                "name": "field-updated"
+            },
+            "old_value": {
+                "id": 50,
+                "name": "assigned",
+                "label": "assigned",
+                "color": "#c2dfff"
+            },
+            "new_value": {
+                "id": 80,
+                "name": "resolved",
+                "label": "resolved",
+                "color": "#d2f5b0"
+            },
+            "message": "Status",
+            "change": "assigned => resolved"
+        },
+        {
+            "created_at": "2021-09-17T14:23:52-03:00",
+            "user": {
+                "id": 7
+            },
+            "field": {
+                "name": "resolution",
+                "label": "Resolution"
+            },
+            "type": {
+                "id": 0,
+                "name": "field-updated"
+            },
+            "old_value": {
+                "id": 10,
+                "name": "open",
+                "label": "open"
+            },
+            "new_value": {
+                "id": 20,
+                "name": "fixed",
+                "label": "fixed"
+            },
+            "message": "Resolution",
+            "change": "open => fixed"
+        },
+        {
+            "created_at": "2021-09-17T14:23:52-03:00",
+            "user": {
+                "id": 7
+            },
+            "type": {
+                "id": 2,
+                "name": "note-added"
+            },
+            "note": {
+                "id": 7725
+            },
+            "message": "Note Added: 0007725"
+        }
+    ]
+}
