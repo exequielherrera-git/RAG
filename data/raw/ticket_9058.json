@@ -1,0 +1,251 @@
+{
+    "id": 9058,
+    "summary": "problema de telefono",
+    "description": "buenos dias\r\n\r\ntelefono con interferencia y micro cortes\r\n\r\n",
+    "project": {
+        "id": 1,
+        "name": "Soporte Técnico"
+    },
+    "category": {
+        "id": 10,
+        "name": "Hardware"
+    },
+    "reporter": {
+        "id": 88,
+        "name": "jjonzalez",
+        "real_name": "Juan Gonzalez",
+        "email": "jjonzalez@tu-correo.com.ar"
+    },
+    "handler": {
+        "id": 27
+    },
+    "status": {
+        "id": 80,
+        "name": "resolved",
+        "label": "resolved",
+        "color": "#d2f5b0"
+    },
+    "resolution": {
+        "id": 20,
+        "name": "fixed",
+        "label": "fixed"
+    },
+    "view_state": {
+        "id": 50,
+        "name": "private",
+        "label": "private"
+    },
+    "priority": {
+        "id": 30,
+        "name": "normal",
+        "label": "normal"
+    },
+    "severity": {
+        "id": 50,
+        "name": "minor",
+        "label": "minor"
+    },
+    "reproducibility": {
+        "id": 70,
+        "name": "have not tried",
+        "label": "have not tried"
+    },
+    "sticky": false,
+    "created_at": "2022-10-11T13:23:46-03:00",
+    "updated_at": "2022-10-11T15:44:41-03:00",
+    "notes": [
+        {
+            "id": 16052,
+            "reporter": {
+                "id": 27
+            },
+            "text": "Listo se cambio el rulo telefonico y se verifica el correcto funcionamiento no iso falta cambiar el equipo",
+            "view_state": {
+                "id": 10,
+                "name": "public",
+                "label": "public"
+            },
+            "attachments": [],
+            "type": "note",
+            "created_at": "2022-10-11T15:44:41-03:00",
+            "updated_at": "2022-10-11T15:44:41-03:00"
+        }
+    ],
+    "custom_fields": [
+        {
+            "field": {
+                "id": 5,
+                "name": "Contacta por :"
+            },
+            "value": " Telefono "
+        },
+        {
+            "field": {
+                "id": 4,
+                "name": "Credenciales :"
+            },
+            "value": ""
+        },
+        {
+            "field": {
+                "id": 3,
+                "name": "Datos de usuario :"
+            },
+            "value": ""
+        },
+        {
+            "field": {
+                "id": 6,
+                "name": "Info, de conexion"
+            },
+            "value": "Rdesktop "
+        },
+        {
+            "field": {
+                "id": 1,
+                "name": "Sector"
+            },
+            "value": "Navegación"
+        }
+    ],
+    "history": [
+        {
+            "created_at": "2022-10-11T13:23:46-03:00",
+            "user": {
+                "id": 88,
+                "name": "jjonzalez",
+                "real_name": "Juan Gonzalez",
+                "email": "jjonzalez@tu-correo.com.ar"
+            },
+            "type": {
+                "id": 1,
+                "name": "issue-new"
+            },
+            "message": "New Issue"
+        },
+        {
+            "created_at": "2022-10-11T13:23:46-03:00",
+            "user": {
+                "id": 88,
+                "name": "jjonzalez",
+                "real_name": "Juan Gonzalez",
+                "email": "jjonzalez@tu-correo.com.ar"
+            },
+            "field": {
+                "name": "status",
+                "label": "Status"
+            },
+            "type": {
+                "id": 0,
+                "name": "field-updated"
+            },
+            "old_value": {
+                "id": 10,
+                "name": "new",
+                "label": "new",
+                "color": "#fcbdbd"
+            },
+            "new_value": {
+                "id": 50,
+                "name": "assigned",
+                "label": "assigned",
+                "color": "#c2dfff"
+            },
+            "message": "Status",
+            "change": "new => assigned"
+        },
+        {
+            "created_at": "2022-10-11T13:23:46-03:00",
+            "user": {
+                "id": 88,
+                "name": "jjonzalez",
+                "real_name": "Juan Gonzalez",
+                "email": "jjonzalez@tu-correo.com.ar"
+            },
+            "field": {
+                "name": "handler",
+                "label": "Assigned To"
+            },
+            "type": {
+                "id": 0,
+                "name": "field-updated"
+            },
+            "old_value": {
+                "id": 0
+            },
+            "new_value": {
+                "id": 27
+            },
+            "message": "Assigned To",
+            "change": " => user27"
+        },
+        {
+            "created_at": "2022-10-11T15:44:40-03:00",
+            "user": {
+                "id": 27
+            },
+            "field": {
+                "name": "status",
+                "label": "Status"
+            },
+            "type": {
+                "id": 0,
+                "name": "field-updated"
+            },
+            "old_value": {
+                "id": 50,
+                "name": "assigned",
+                "label": "assigned",
+                "color": "#c2dfff"
+            },
+            "new_value": {
+                "id": 80,
+                "name": "resolved",
+                "label": "resolved",
+                "color": "#d2f5b0"
+            },
+            "message": "Status",
+            "change": "assigned => resolved"
+        },
+        {
+            "created_at": "2022-10-11T15:44:40-03:00",
+            "user": {
+                "id": 27
+            },
+            "field": {
+                "name": "resolution",
+                "label": "Resolution"
+            },
+            "type": {
+                "id": 0,
+                "name": "field-updated"
+            },
+            "old_value": {
+                "id": 10,
+                "name": "open",
+                "label": "open"
+            },
+            "new_value": {
+                "id": 20,
+                "name": "fixed",
+                "label": "fixed"
+            },
+            "message": "Resolution",
+            "change": "open => fixed"
+        },
+        {
+            "created_at": "2022-10-11T15:44:41-03:00",
+            "user": {
+                "id": 27
+            },
+            "type": {
+                "id": 2,
+                "name": "note-added"
+            },
+            "note": {
+                "id": 16052
+            },
+            "message": "Note Added: 0016052"
+        }
+    ]
+}
