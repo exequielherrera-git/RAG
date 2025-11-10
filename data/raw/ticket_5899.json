@@ -1,0 +1,67 @@
+{
+  "id": 5899,
+  "summary": "Usuario no puede iniciar sesión en la aplicación interna",
+  "description": "Reporte: Usuario no puede iniciar sesión en la aplicación interna. Usuario indica: 'La app lanza un mensaje 'Database connection failed' al consultar el endpoint /api/auth.'",
+  "project": {
+    "id": 1,
+    "name": "Soporte Técnico"
+  },
+  "category": {
+    "id": 10,
+    "name": "Incidente"
+  },
+  "reporter": {
+    "id": 57,
+    "name": "reporter_5899",
+    "email": "reporter_5899@examplecorp.test"
+  },
+  "handler": {
+    "id": 67,
+    "name": "handler_5899",
+    "email": "handler_5899@examplecorp.test"
+  },
+  "status": {
+    "id": 80,
+    "name": "resolved"
+  },
+  "created_at": "2025-08-29T12:06:31-03:00",
+  "updated_at": "2025-10-10T23:33:31-03:00",
+  "notes": [
+    {
+      "id": 1,
+      "reporter": {
+        "id": 107,
+        "name": "User_5899",
+        "email": "user_5899@examplecorp.test"
+      },
+      "text": "Incidencia reportada: La app lanza un mensaje 'Database connection failed' al consultar el endpoint /api/auth. - Se adjuntaron logs y capturas.",
+      "created_at": "2025-10-21T22:12:31-03:00"
+    },
+    {
+      "id": 2,
+      "reporter": {
+        "id": 207,
+        "name": "Tec_5899",
+        "email": "tec_5899@examplecorp.test"
+      },
+      "text": "Acciones realizadas: Se restauraron credenciales en la base y se reinició el servicio de base de datos. - Resultado: OK.",
+      "created_at": "2025-10-25T11:36:31-03:00"
+    }
+  ],
+  "custom_fields": [
+    {
+      "field": {
+        "id": 1,
+        "name": "Ubicación"
+      },
+      "value": "Sucursal Central"
+    },
+    {
+      "field": {
+        "id": 2,
+        "name": "Prioridad"
+      },
+      "value": "normal"
+    }
+  ]
+}

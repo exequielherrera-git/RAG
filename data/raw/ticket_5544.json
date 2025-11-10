@@ -1,0 +1,67 @@
+{
+  "id": 5544,
+  "summary": "Outlook no envía correos",
+  "description": "Reporte: Outlook no envía correos. Usuario indica: 'El envío queda atascado en 'Enviando...' y no aparece en la carpeta Sent.'",
+  "project": {
+    "id": 1,
+    "name": "Soporte Técnico"
+  },
+  "category": {
+    "id": 10,
+    "name": "Incidente"
+  },
+  "reporter": {
+    "id": 52,
+    "name": "reporter_5544",
+    "email": "reporter_5544@examplecorp.test"
+  },
+  "handler": {
+    "id": 62,
+    "name": "handler_5544",
+    "email": "handler_5544@examplecorp.test"
+  },
+  "status": {
+    "id": 80,
+    "name": "resolved"
+  },
+  "created_at": "2025-08-03T01:54:31-03:00",
+  "updated_at": "2025-11-07T06:20:31-03:00",
+  "notes": [
+    {
+      "id": 1,
+      "reporter": {
+        "id": 102,
+        "name": "User_5544",
+        "email": "user_5544@examplecorp.test"
+      },
+      "text": "Incidencia reportada: El envío queda atascado en 'Enviando...' y no aparece en la carpeta Sent. - Se adjuntaron logs y capturas.",
+      "created_at": "2025-10-02T04:37:31-03:00"
+    },
+    {
+      "id": 2,
+      "reporter": {
+        "id": 202,
+        "name": "Tec_5544",
+        "email": "tec_5544@examplecorp.test"
+      },
+      "text": "Acciones realizadas: Se restablecieron credenciales de la cuenta y se forzó la reconstrucción del perfil de Outlook. - Resultado: OK.",
+      "created_at": "2025-10-11T22:01:31-03:00"
+    }
+  ],
+  "custom_fields": [
+    {
+      "field": {
+        "id": 1,
+        "name": "Ubicación"
+      },
+      "value": "Sucursal Central"
+    },
+    {
+      "field": {
+        "id": 2,
+        "name": "Prioridad"
+      },
+      "value": "normal"
+    }
+  ]
+}

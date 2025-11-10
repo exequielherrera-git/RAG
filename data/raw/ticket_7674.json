@@ -1,0 +1,67 @@
+{
+  "id": 7674,
+  "summary": "Error al imprimir desde la red",
+  "description": "Reporte: Error al imprimir desde la red. Usuario indica: 'Al imprimir, la cola muestra 'Printer error 0x000003e', el driver es genérico.'",
+  "project": {
+    "id": 1,
+    "name": "Soporte Técnico"
+  },
+  "category": {
+    "id": 10,
+    "name": "Incidente"
+  },
+  "reporter": {
+    "id": 51,
+    "name": "reporter_7674",
+    "email": "reporter_7674@examplecorp.test"
+  },
+  "handler": {
+    "id": 61,
+    "name": "handler_7674",
+    "email": "handler_7674@examplecorp.test"
+  },
+  "status": {
+    "id": 80,
+    "name": "resolved"
+  },
+  "created_at": "2025-07-21T19:32:31-03:00",
+  "updated_at": "2025-10-17T18:21:31-03:00",
+  "notes": [
+    {
+      "id": 1,
+      "reporter": {
+        "id": 101,
+        "name": "User_7674",
+        "email": "user_7674@examplecorp.test"
+      },
+      "text": "Incidencia reportada: Al imprimir, la cola muestra 'Printer error 0x000003e', el driver es genérico. - Se adjuntaron logs y capturas.",
+      "created_at": "2025-10-24T03:15:31-03:00"
+    },
+    {
+      "id": 2,
+      "reporter": {
+        "id": 201,
+        "name": "Tec_7674",
+        "email": "tec_7674@examplecorp.test"
+      },
+      "text": "Acciones realizadas: Se reinstaló el driver correcto y se imprimió una página de prueba con éxito. - Resultado: OK.",
+      "created_at": "2025-10-11T03:33:31-03:00"
+    }
+  ],
+  "custom_fields": [
+    {
+      "field": {
+        "id": 1,
+        "name": "Ubicación"
+      },
+      "value": "Sucursal Central"
+    },
+    {
+      "field": {
+        "id": 2,
+        "name": "Prioridad"
+      },
+      "value": "normal"
+    }
+  ]
+}

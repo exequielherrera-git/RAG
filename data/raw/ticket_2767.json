@@ -1,0 +1,67 @@
+{
+  "id": 2767,
+  "summary": "Login SSO falla con código 401",
+  "description": "Reporte: Login SSO falla con código 401. Usuario indica: 'El flujo SSO devuelve 401 Unauthorized al intercambiar el token con el IdP.'",
+  "project": {
+    "id": 1,
+    "name": "Soporte Técnico"
+  },
+  "category": {
+    "id": 10,
+    "name": "Incidente"
+  },
+  "reporter": {
+    "id": 58,
+    "name": "reporter_2767",
+    "email": "reporter_2767@examplecorp.test"
+  },
+  "handler": {
+    "id": 68,
+    "name": "handler_2767",
+    "email": "handler_2767@examplecorp.test"
+  },
+  "status": {
+    "id": 80,
+    "name": "resolved"
+  },
+  "created_at": "2025-08-07T08:20:32-03:00",
+  "updated_at": "2025-10-25T01:26:32-03:00",
+  "notes": [
+    {
+      "id": 1,
+      "reporter": {
+        "id": 108,
+        "name": "User_2767",
+        "email": "user_2767@examplecorp.test"
+      },
+      "text": "Incidencia reportada: El flujo SSO devuelve 401 Unauthorized al intercambiar el token con el IdP. - Se adjuntaron logs y capturas.",
+      "created_at": "2025-09-18T21:18:32-03:00"
+    },
+    {
+      "id": 2,
+      "reporter": {
+        "id": 208,
+        "name": "Tec_2767",
+        "email": "tec_2767@examplecorp.test"
+      },
+      "text": "Acciones realizadas: Se corrigió la configuración del assertion-consumer en el IdP y SSO volvió a funcionar. - Resultado: OK.",
+      "created_at": "2025-10-24T18:11:32-03:00"
+    }
+  ],
+  "custom_fields": [
+    {
+      "field": {
+        "id": 1,
+        "name": "Ubicación"
+      },
+      "value": "Sucursal Central"
+    },
+    {
+      "field": {
+        "id": 2,
+        "name": "Prioridad"
+      },
+      "value": "normal"
+    }
+  ]
+}

@@ -1,0 +1,67 @@
+{
+  "id": 6350,
+  "summary": "VPN se desconecta",
+  "description": "Reporte: VPN se desconecta. Usuario indica: 'La VPN establece conexión pero se desconecta a los 10 minutos con código TLS_ALERT.'",
+  "project": {
+    "id": 1,
+    "name": "Soporte Técnico"
+  },
+  "category": {
+    "id": 10,
+    "name": "Incidente"
+  },
+  "reporter": {
+    "id": 56,
+    "name": "reporter_6350",
+    "email": "reporter_6350@examplecorp.test"
+  },
+  "handler": {
+    "id": 66,
+    "name": "handler_6350",
+    "email": "handler_6350@examplecorp.test"
+  },
+  "status": {
+    "id": 80,
+    "name": "resolved"
+  },
+  "created_at": "2025-07-18T05:12:31-03:00",
+  "updated_at": "2025-10-22T12:49:31-03:00",
+  "notes": [
+    {
+      "id": 1,
+      "reporter": {
+        "id": 106,
+        "name": "User_6350",
+        "email": "user_6350@examplecorp.test"
+      },
+      "text": "Incidencia reportada: La VPN establece conexión pero se desconecta a los 10 minutos con código TLS_ALERT. - Se adjuntaron logs y capturas.",
+      "created_at": "2025-09-15T15:13:31-03:00"
+    },
+    {
+      "id": 2,
+      "reporter": {
+        "id": 206,
+        "name": "Tec_6350",
+        "email": "tec_6350@examplecorp.test"
+      },
+      "text": "Acciones realizadas: Se actualizó la versión del cliente VPN y se estabilizó la conexión. - Resultado: OK.",
+      "created_at": "2025-10-16T11:21:31-03:00"
+    }
+  ],
+  "custom_fields": [
+    {
+      "field": {
+        "id": 1,
+        "name": "Ubicación"
+      },
+      "value": "Sucursal Central"
+    },
+    {
+      "field": {
+        "id": 2,
+        "name": "Prioridad"
+      },
+      "value": "normal"
+    }
+  ]
+}

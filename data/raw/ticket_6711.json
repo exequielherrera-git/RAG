@@ -1,0 +1,67 @@
+{
+  "id": 6711,
+  "summary": "No se sincroniza la carpeta compartida",
+  "description": "Reporte: No se sincroniza la carpeta compartida. Usuario indica: 'Se recibió un error 'Connection timed out' al intentar conectar al servidor SMB.'",
+  "project": {
+    "id": 1,
+    "name": "Soporte Técnico"
+  },
+  "category": {
+    "id": 10,
+    "name": "Incidente"
+  },
+  "reporter": {
+    "id": 50,
+    "name": "reporter_6711",
+    "email": "reporter_6711@examplecorp.test"
+  },
+  "handler": {
+    "id": 60,
+    "name": "handler_6711",
+    "email": "handler_6711@examplecorp.test"
+  },
+  "status": {
+    "id": 80,
+    "name": "resolved"
+  },
+  "created_at": "2025-10-07T03:21:31-03:00",
+  "updated_at": "2025-10-23T21:27:31-03:00",
+  "notes": [
+    {
+      "id": 1,
+      "reporter": {
+        "id": 100,
+        "name": "User_6711",
+        "email": "user_6711@examplecorp.test"
+      },
+      "text": "Incidencia reportada: Se recibió un error 'Connection timed out' al intentar conectar al servidor SMB. - Se adjuntaron logs y capturas.",
+      "created_at": "2025-10-12T22:14:31-03:00"
+    },
+    {
+      "id": 2,
+      "reporter": {
+        "id": 200,
+        "name": "Tec_6711",
+        "email": "tec_6711@examplecorp.test"
+      },
+      "text": "Acciones realizadas: Se ajustó la configuración de credenciales en el cliente y se resolvió la sincronización. - Resultado: OK.",
+      "created_at": "2025-10-14T22:06:31-03:00"
+    }
+  ],
+  "custom_fields": [
+    {
+      "field": {
+        "id": 1,
+        "name": "Ubicación"
+      },
+      "value": "Sucursal Central"
+    },
+    {
+      "field": {
+        "id": 2,
+        "name": "Prioridad"
+      },
+      "value": "normal"
+    }
+  ]
+}

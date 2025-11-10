@@ -1,0 +1,67 @@
+{
+  "id": 4780,
+  "summary": "Acceso remoto lento",
+  "description": "Reporte: Acceso remoto lento. Usuario indica: 'La latencia de RDP supera los 1500ms y se pierden paquetes.'",
+  "project": {
+    "id": 1,
+    "name": "Soporte Técnico"
+  },
+  "category": {
+    "id": 10,
+    "name": "Incidente"
+  },
+  "reporter": {
+    "id": 53,
+    "name": "reporter_4780",
+    "email": "reporter_4780@examplecorp.test"
+  },
+  "handler": {
+    "id": 63,
+    "name": "handler_4780",
+    "email": "handler_4780@examplecorp.test"
+  },
+  "status": {
+    "id": 80,
+    "name": "resolved"
+  },
+  "created_at": "2025-07-15T23:10:31-03:00",
+  "updated_at": "2025-10-13T10:50:31-03:00",
+  "notes": [
+    {
+      "id": 1,
+      "reporter": {
+        "id": 103,
+        "name": "User_4780",
+        "email": "user_4780@examplecorp.test"
+      },
+      "text": "Incidencia reportada: La latencia de RDP supera los 1500ms y se pierden paquetes. - Se adjuntaron logs y capturas.",
+      "created_at": "2025-10-20T11:13:31-03:00"
+    },
+    {
+      "id": 2,
+      "reporter": {
+        "id": 203,
+        "name": "Tec_4780",
+        "email": "tec_4780@examplecorp.test"
+      },
+      "text": "Acciones realizadas: Se reconfiguró el MTU y se optimizó la ruta; la conexión remota mejoró. - Resultado: OK.",
+      "created_at": "2025-10-23T10:43:31-03:00"
+    }
+  ],
+  "custom_fields": [
+    {
+      "field": {
+        "id": 1,
+        "name": "Ubicación"
+      },
+      "value": "Sucursal Central"
+    },
+    {
+      "field": {
+        "id": 2,
+        "name": "Prioridad"
+      },
+      "value": "normal"
+    }
+  ]
+}

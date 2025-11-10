@@ -1,0 +1,67 @@
+{
+  "id": 2176,
+  "summary": "Pantalla táctil no responde",
+  "description": "Reporte: Pantalla táctil no responde. Usuario indica: 'La pantalla táctil muestra input lag y toques fantasma al usar el navegador Chrome.'",
+  "project": {
+    "id": 1,
+    "name": "Soporte Técnico"
+  },
+  "category": {
+    "id": 10,
+    "name": "Incidente"
+  },
+  "reporter": {
+    "id": 54,
+    "name": "reporter_2176",
+    "email": "reporter_2176@examplecorp.test"
+  },
+  "handler": {
+    "id": 64,
+    "name": "handler_2176",
+    "email": "handler_2176@examplecorp.test"
+  },
+  "status": {
+    "id": 80,
+    "name": "resolved"
+  },
+  "created_at": "2025-09-29T17:45:31-03:00",
+  "updated_at": "2025-10-16T04:04:31-03:00",
+  "notes": [
+    {
+      "id": 1,
+      "reporter": {
+        "id": 104,
+        "name": "User_2176",
+        "email": "user_2176@examplecorp.test"
+      },
+      "text": "Incidencia reportada: La pantalla táctil muestra input lag y toques fantasma al usar el navegador Chrome. - Se adjuntaron logs y capturas.",
+      "created_at": "2025-10-17T02:29:31-03:00"
+    },
+    {
+      "id": 2,
+      "reporter": {
+        "id": 204,
+        "name": "Tec_2176",
+        "email": "tec_2176@examplecorp.test"
+      },
+      "text": "Acciones realizadas: Se limpió la superficie y se actualizó el firmware de la pantalla, problema resuelto. - Resultado: OK.",
+      "created_at": "2025-10-26T07:05:31-03:00"
+    }
+  ],
+  "custom_fields": [
+    {
+      "field": {
+        "id": 1,
+        "name": "Ubicación"
+      },
+      "value": "Sucursal Central"
+    },
+    {
+      "field": {
+        "id": 2,
+        "name": "Prioridad"
+      },
+      "value": "normal"
+    }
+  ]
+}

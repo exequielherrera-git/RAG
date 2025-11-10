@@ -1,0 +1,67 @@
+{
+  "id": 9539,
+  "summary": "Alertas de UPS intermitentes",
+  "description": "Reporte: Alertas de UPS intermitentes. Usuario indica: 'La UPS genera alarmas de 'Battery low' aunque el voltaje es estable.'",
+  "project": {
+    "id": 1,
+    "name": "Soporte Técnico"
+  },
+  "category": {
+    "id": 10,
+    "name": "Incidente"
+  },
+  "reporter": {
+    "id": 59,
+    "name": "reporter_9539",
+    "email": "reporter_9539@examplecorp.test"
+  },
+  "handler": {
+    "id": 69,
+    "name": "handler_9539",
+    "email": "handler_9539@examplecorp.test"
+  },
+  "status": {
+    "id": 80,
+    "name": "resolved"
+  },
+  "created_at": "2025-08-26T07:23:32-03:00",
+  "updated_at": "2025-10-22T05:05:32-03:00",
+  "notes": [
+    {
+      "id": 1,
+      "reporter": {
+        "id": 109,
+        "name": "User_9539",
+        "email": "user_9539@examplecorp.test"
+      },
+      "text": "Incidencia reportada: La UPS genera alarmas de 'Battery low' aunque el voltaje es estable. - Se adjuntaron logs y capturas.",
+      "created_at": "2025-11-01T09:38:32-03:00"
+    },
+    {
+      "id": 2,
+      "reporter": {
+        "id": 209,
+        "name": "Tec_9539",
+        "email": "tec_9539@examplecorp.test"
+      },
+      "text": "Acciones realizadas: Se reemplazó la batería de la UPS y se eliminaron las alarmas. - Resultado: OK.",
+      "created_at": "2025-10-26T20:45:32-03:00"
+    }
+  ],
+  "custom_fields": [
+    {
+      "field": {
+        "id": 1,
+        "name": "Ubicación"
+      },
+      "value": "Sucursal Central"
+    },
+    {
+      "field": {
+        "id": 2,
+        "name": "Prioridad"
+      },
+      "value": "normal"
+    }
+  ]
+}

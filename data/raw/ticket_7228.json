@@ -1,0 +1,67 @@
+{
+  "id": 7228,
+  "summary": "Backup programado falla",
+  "description": "Reporte: Backup programado falla. Usuario indica: 'El job de backup finaliza con exit code 2 y un log que menciona 'disk full' en /backup.'",
+  "project": {
+    "id": 1,
+    "name": "Soporte Técnico"
+  },
+  "category": {
+    "id": 10,
+    "name": "Incidente"
+  },
+  "reporter": {
+    "id": 55,
+    "name": "reporter_7228",
+    "email": "reporter_7228@examplecorp.test"
+  },
+  "handler": {
+    "id": 65,
+    "name": "handler_7228",
+    "email": "handler_7228@examplecorp.test"
+  },
+  "status": {
+    "id": 80,
+    "name": "resolved"
+  },
+  "created_at": "2025-07-24T15:38:31-03:00",
+  "updated_at": "2025-10-29T21:09:31-03:00",
+  "notes": [
+    {
+      "id": 1,
+      "reporter": {
+        "id": 105,
+        "name": "User_7228",
+        "email": "user_7228@examplecorp.test"
+      },
+      "text": "Incidencia reportada: El job de backup finaliza con exit code 2 y un log que menciona 'disk full' en /backup. - Se adjuntaron logs y capturas.",
+      "created_at": "2025-09-12T06:15:31-03:00"
+    },
+    {
+      "id": 2,
+      "reporter": {
+        "id": 205,
+        "name": "Tec_7228",
+        "email": "tec_7228@examplecorp.test"
+      },
+      "text": "Acciones realizadas: Se liberó espacio en el disco de backups y se reprogramó el job. - Resultado: OK.",
+      "created_at": "2025-10-28T14:54:31-03:00"
+    }
+  ],
+  "custom_fields": [
+    {
+      "field": {
+        "id": 1,
+        "name": "Ubicación"
+      },
+      "value": "Sucursal Central"
+    },
+    {
+      "field": {
+        "id": 2,
+        "name": "Prioridad"
+      },
+      "value": "normal"
+    }
+  ]
+}
