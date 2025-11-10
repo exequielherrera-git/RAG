@@ -10,23 +10,23 @@ Este README explica cómo iniciar la app a partir de estos archivos.
 
 ```bash
 # Crear y activar un entorno virtual
-python3 -m venv .venv
-source .venv/bin/activate
+python -m venv .venv
+.venv\Scripts\Activate.ps1
 
 # Instalar dependencias (puede fallar con faiss en macOS; ver nota arriba)
-pip install --upgrade pip
+python -m pip install --upgrade pip
 pip install -r requirements.txt
 ```
 
-3) Ejecutar la ingesta y procesamiento inicial
-
-```bash
-python -m rag.pipelines
-```
-
-1) Ejecutar la UI Streamlit -> A partir de aqui ya se puede hacer todo de forma Web
+3) Ejecutar la UI Streamlit: Abre el entorno web local creado
 
 ```bash
 streamlit run app/ui_streamlit.py
 # Por defecto abre en http://localhost:8501
 ```
+
+** Aclaraciones:
+
+- La primera vez, en el menú de la izquierda, ejecutar "Actualizar índice" así Ejecuta la ingesta y el indexado.
+
+- A partir de este momento, ya se podrían hacer las consultas al RAG
